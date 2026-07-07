@@ -10,5 +10,9 @@
   {
     "origin": "https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html",
     "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html",
+    "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html"
   }
 ]
