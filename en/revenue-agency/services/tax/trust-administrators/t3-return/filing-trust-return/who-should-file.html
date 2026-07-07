@@ -35,7 +35,7 @@ notedlinks:
 
 
 <nav class="provisional gc-subway">
-    <h1 id="gc-document-nav">Filing a trust’s T3 return</h1>
+    <h1 id="gc-document-nav">Filing a trust's T3 return</h1>
     <ul>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/what-changed.html">What has changed</a></li>
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html" class="active">Who should file</a></li>
@@ -46,192 +46,57 @@ notedlinks:
         <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/contact-us.html">Contact us</a></li>
     </ul>
 </nav>
+
 <h1 property="name" id="wb-cont" class="gc-thickline">Who should file</h1>
+
 <section data-ajax-replace="https://www.canada.ca/content/dam/cra-arc/includes/what-changed.txt#what-changed-en"></section>
+
 <p>Find out if you should file a T3RET T3 Trust Income Tax and Information Return (T3 return).</p>
-<p>
-    Unless otherwise stated, all statutory references on this webpage refer to the provisions of the&nbsp;<a href="https://laws.justice.gc.ca/eng/acts/I-3.3/index.html"><em>Income Tax Act</em>&nbsp;R.S.C. 1985,&nbsp;c.1 (5th&nbsp;Supp.)</a>, as amended.
-</p>
+
+<p>Unless otherwise stated, all statutory references on this webpage refer to the provisions of the&nbsp;<a href="https://laws.justice.gc.ca/eng/acts/I-3.3/index.html"><em>Income Tax Act</em>&nbsp;R.S.C. 1985,&nbsp;c.1 (5th&nbsp;Supp.)</a>, as amended.</p>
+
 <h2 class="h3">On this page</h2>
+
 <nav>
     <ul>
-        <li><a href="#toc0">Determining the existence of a trust</a></li>
-        <li><a href="#toc1">Trust reporting rules</a></li>
-        <li><a href="#toc2">Where the trust is an estate</a></li>
+        <li><a href="#toc0"></a></li>Determine if you have a trust</h2>
+        <li><a href="#toc1"></a></li>Identify the type of trust</h2>
+        <li><a href="#toc2"></a></li>Find out if you need to file a T3 return</h2>
     </ul>
 </nav>
-<script type="text/javascript">
-    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
-    window.onload = function() {
-        var hTags = ['H2','H2','H2','H2'];
-        var hText = ['Determining the existence of a trust','Rules for tax years ending on or after December\u00A031,\u00A02023','Rules for tax years ending before December\u00A031,\u00A02023','Where the trust is an estate'];
-        if(typeof hTags != 'undefined' && hTags != null){
-            for(var i = 0; i < hTags.length; i++){
-                var tags = document.querySelectorAll(hTags[i].toLowerCase());
-    if(typeof tags != 'undefined' && tags != null){
-                    for(var j = 0; j < tags.length; j++){
-                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
-                        // hence removing backslash for creating equal comparison in order to add id reference
-                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
-    			if(!tags[j].id) {
-    				tags[j].setAttribute('id', 'toc'+i);
-    				break;
-    			}
-                        }
-                    }
-                }
-            }
-        }
-    };
-</script>
-<h2 id="toc0">Determining the existence of a trust</h2>
-<p>The Canada Revenue Agency (CRA) does not provide legal advice so it is not able to advise taxpayers about the application of the private law to their specific circumstances or to interpret trust documents. It is the responsibility of the parties involved in an arrangement to determine the true nature of their legal relationships and whether they give rise to a trust.</p>
-<p>Determining whether a particular arrangement is a trust is a question of fact and law based on an analysis of the facts specific to each situation under the applicable private law. Taxpayers may wish to consult a legal advisor for help in understanding all of the legal consequences of their trust or ownership arrangements.</p>
-<p>Refer to: <a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q1-1">Question 1.1 "What is a trust?"</a> on the "Enhanced reporting rules for trusts and bare trusts: Frequently asked questions" page for a general overview of the legal (non-tax) principles that apply to trusts in Canada.</p>
-<h2 id="toc1">Trust reporting rules</h2>
-<p>The rules governing which trusts must file an annual T3 return were enhanced for taxation years ending on or after <span class="nowrap">December 31, 2023</span>.</p>
-<p>The enhanced rules governing which trusts must file an annual T3 return are as follows:</p>
-<ul>
-    <li>All trusts, unless specific conditions are met, are required to file a T3 return annually.</li>
-    <li>Generally, all trusts that are required to file a T3 return, other than listed trusts, must include specified information about each reportable entity of the trust (beneficial ownership information), as outlined on&nbsp;Schedule 15, with their T3 return. See below for the <a href="#listedtrusts">listed trusts</a> applicable for tax years ending on or after December&nbsp;31,&nbsp;2023.</li>
-    <li>
-        For taxation years ending on or after <strong><span class="nowrap">December 31, 2024</span></strong
-        >, and before <strong><span class="nowrap">December 31, 2026</span></strong> (typically the 2024 and 2025&nbsp;taxation years), bare trusts are not subject to the trust reporting rules and are therefore not required to file. For the 2023&nbsp;taxation year, bare trusts are subject to the trust reporting rules. However, the CRA will not require bare trusts to file a T3 return, including Schedule&nbsp;15, unless the CRA makes a direct request for these filings. See below for more information on <a href="#baretrusts">bare trusts</a>.
-    </li>
-</ul>
-<h3>Trusts that must file a T3 return each year</h3>
-<p>You must file a T3 return annually, even when you have no income, if your trust is <strong>all</strong> of the following:</p>
-<ul>
-    <li>A trust that is resident in Canada (or a trust deemed resident in Canada under subsection 94(3))</li>
-    <li>
-        An <a href="#expresstrust" aria-controls="expresstrust" class="wb-lbx" role="button">express trust&nbsp;<span class="far fa-question-circle"></span></a> (or for civil law purposes a trust other than a trust that is established by law or by judgment)
-    </li>
-    <li><strong>Not</strong> a listed trust (see below for the <a href="#listedtrusts">listed trusts</a> applicable for tax years ending on or after December&nbsp;31,&nbsp;2023)</li>
-</ul>
-<h3>Trusts that must file a T3 return for a tax year when certain situations apply</h3>
-<p>For all other trusts (resident and non-resident), including listed trusts, you must file a T3 return for tax years in which the trust meets <strong>any</strong> of the following:</p>
-<ul>
-    <li>Has tax payable</li>
-    <li>Is requested to file</li>
-    <li>Is a deemed resident trust</li>
-    <li>Is resident in Canada and has either disposed of, or is deemed to have disposed of, a capital property or has a taxable capital gain (for example, a principal residence, or shares in the capital stock of a corporation)</li>
-    <li>Is a non-resident throughout the year, and has a taxable capital gain (other than from an excluded disposition described in&nbsp;subsection 150(5)) or has disposed of taxable Canadian property (other than from an excluded disposition)</li>
-    <li>
-        Holds property that is <a href="#subsection75-2" aria-controls="subsection75-2" class="wb-lbx" role="button">subject to&nbsp;subsection 75(2)&nbsp;<span class="far fa-question-circle"></span></a>
-    </li>
-    <li>Has provided a benefit of more than $100 to a beneficiary for upkeep, maintenance, or taxes for property maintained for the beneficiary’s use (for more information, see "<a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013/t3-trust-guide.html#P658_80781">Line 24&nbsp;– Upkeep, maintenance, and taxes of a property used or occupied by a beneficiary</a>"&nbsp;in the T4013 T3 Trust Guide)</li>
-    <li>
-        Receives from the trust property any income, gain, or profit that is allocated to one or more beneficiaries, and the <a href="#trust-has-following" aria-controls="trust-has-following" class="wb-lbx" role="button">trust has <strong>any</strong> of the following&nbsp;<span class="far fa-question-circle"></span></a>:
-        <ul>
-            <li>Total income from all sources of more than $500</li>
-            <li>Income of more than $100 allocated to any single beneficiary</li>
-            <li>Made a distribution of capital to one or more beneficiaries</li>
-            <li>Allocated any portion of the income to a non-resident beneficiary</li>
-        </ul>
-    </li>
-</ul>
-<h3 id="listedtrusts">Listed trusts</h3>
-<p>Listed trusts refer to the situations or trust types provided in subsection&nbsp;150(1.2). Refer to the following questions on the “Enhanced reporting rules for trusts and bare trusts: Frequently asked questions” page for more information:</p>
-<ul class="lst-none">
-    <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q2-3-a">Question 2.3.A</a> for the listed trusts to which the reporting rules are applicable for taxation years ending on or after <span class="nowrap">December 31, 2023</span>, and before <span class="nowrap">December 31, 2024</span> (typically the 2023 taxation year)</li>
-    <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q2-3-b">Question 2.3.B</a> for the listed trusts to which the reporting rules are applicable for taxation years ending on or after <span class="nowrap">December 31, 2024</span>, and before <span class="nowrap">December 31, 2025</span> (typically the 2024 taxation year)</li>
-    <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q2-3-c">Question 2.3.C</a> for the listed trusts to which the reporting rules are applicable for taxation years ending on or after <span class="nowrap">December 31, 2025</span> (typically the 2025 taxation year and subsequent taxation years)</li>
-</ul>
-<h4>Examples of trusts that need to file under the trust reporting rules</h4>
-<p>For examples to assist you in determining your trust reporting obligations, refer to: <a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q2-10">Question 2.10 "What are some examples of trusts that need to file under the trust reporting rules?"</a> on the "Enhanced reporting rules for trusts and bare trusts: Frequently asked questions" page.</p>
-<h3 id="baretrusts">Bare trusts</h3>
-<p>For complete updates on the filing obligations of bare trusts, refer to: <a href="https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html#q3-2">Question 3.2 “Are bare trusts now required to file an annual T3 return and Schedule 15?"</a> on the "Enhanced reporting rules for trusts and bare trusts: Frequently asked questions" page.</p>
-<p>The term "bare trust" is not defined in the <em>Income Tax Act</em>. However, for income tax purposes, a bare trust is a trust arrangement under which the trustee can reasonably be considered to act as agent for all the beneficiaries under the trust regarding all dealings with all of the trust's property.</p>
-<p>A trustee can reasonably be considered to act as agent for a beneficiary when the trustee:</p>
-<div class="row">
-    <div class="col-md-8">
-        <ul class="list-unstyled cnjnctn-type-and cnjnctn-xs">
-            <li class="cnjnctn-col"><p>has no significant powers or responsibilities</p></li>
-            <li class="cnjnctn-col"><p>cannot take action without instructions from that beneficiary</p></li>
-            <li class="cnjnctn-col"><p>the trustee’s only function is to hold legal title to the property</p></li>
-        </ul>
-    </div>
-</div>
-<p>For the trustee to be considered as the agent for all the beneficiaries, it would generally be necessary for the trust to consult and take instructions from each and every beneficiary regarding all dealings with all of the trust property.</p>
-<p>A typical scenario where a bare trust arrangement can occur is when a property developer establishes a bare trust arrangement to hold registered title to real property for privacy reasons while retaining beneficial ownership.</p>
-<section class="alert alert-info">
-    <h4>Income on assets held in bare trust</h4>
-    <p>Note that the beneficial owner of the property is still required to report any income earned or taxable capital gain realized on that property on their own tax return.</p>
-</section>
-<h3>Internal trusts of registered charities</h3>
-<p>The CRA will not require registered charities to file a T3 return for internal trusts.</p>
-<p>Internal trusts are those created when a charity receives property as a gift that is subject to certain legally enforceable terms and conditions and holds that property as trustee of the trust. Refer to: <a href="https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/operating-a-registered-charity/filing-t3010-charity-return/before-file.html">Additional information on internal trusts of charities</a>.</p>
-<h3>Rules for tax years ending before December&nbsp;31,&nbsp;2023</h3>
-<p>If you require information in order to file a T3 return for a tax year ending before <span class="nowrap">December 31, 2023</span>, refer to the <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4013.html">T4013 Trust Guide</a> and select the previous year by using the drop-down menu.</p>
-<h2 id="toc2">Where the trust is an estate</h2>
-<p>
-    Generally, when someone has died, their belongings, property, assets and liabilities form their estate. An estate is considered to be a <a href="#testamentary-trust" aria-controls="testamentary-trust" class="wb-lbx" role="button">testamentary trust&nbsp;<span class="far fa-question-circle"></span></a> that arose on and as a consequence of an individual’s death. The legal representative of the deceased person is responsible for the administration of the estate. Find out more: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/represent-deceased.html">Represent someone who died</a>.
-</p>
-<p>An estate may continue to earn income such as investment income or receive amounts such as a death benefit from an employer. Generally, a T3 return is required to be filed if there is any gain realized or payments received by the estate after the death. Find out more: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/what-to-file.html">What returns you need to file&nbsp;- Prepare tax returns for someone who died</a>.</p>
-<p>Where the trust is an estate, you may not need to file a T3 return if the estate is distributed immediately after the person dies, or if the estate did not earn income before the distribution. In these cases, you should give each beneficiary a statement showing their share of the estate. Find out more: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/what-to-file.html">What returns you need to file&nbsp;- Prepare tax returns for someone who died</a>.</p>
-<p>You might not need to file a T3 Return if the only income after death can be reported by a beneficiary. For example, the CPP/QPP death benefit can be reported on the beneficiary's return instead of on a T3 Return. Find out more: <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income.html">Report income, transfers, and dispositions&nbsp;- Prepare tax returns for someone who died</a>.</p>
-<section id="expresstrust" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Express trust</h2></header>
-    <div class="modal-body">
-        <p>Generally, an express trust is a trust created with the settlor's express intent, usually set out in writing (as opposed to a resulting or constructive trust, or certain trusts deemed to arise under the provision of a statute). Many types of trusts are express trusts.</p>
-    </div>
-</section>
-<section id="subsection75-2" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Example of a trust that holds property subject to subsection 75(2)</h2></header>
-    <div class="modal-body">
-        <p>For example, a T3 return must be filed if the trust received income, gains, or profits from property that is subject to subsection 75(2), even if the trust does not have tax payable.</p>
-    </div>
-</section>
-<section id="trust-has-following" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Where a trust allocates income, gain, or profit and one of the conditions is met</h2></header>
-    <div class="modal-body">
-        <p>For example, a T3 return must be filed when the trust’s total income from all sources is less than $500, however the trust made a distribution of capital to one or more beneficiaries.</p>
-    </div>
-</section>
-<section id="money-not-include" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Money does not include collectible gold or silver coins, or gold or silver bars</h2></header>
-    <div class="modal-body">
-        <p>Therefore, a trust that is in possession of either a collectible gold or silver coin, or a gold or silver bar will not be able to satisfy the exception in paragraph 150(1.2)(b).</p>
-    </div>
-</section>
-<section id="trust-not-maintained" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Trust that is not maintained as a separate trust for a particular client or clients</h2></header>
-    <div class="modal-body">
-        <p>This provides an exception for a lawyer’s general trust account, but not for specific client trust accounts.</p>
-    </div>
-</section>
-<section id="graduated-rate-estate" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Graduated rate estate</h2></header>
-    <div class="modal-body">
-        <p>A graduated rate estate (trust type 903), of an individual at any time, is the estate that arose on and as a consequence of the individual’s death, if&nbsp;<strong>all</strong>&nbsp;of the following conditions are met:</p>
-        <ul>
-            <li>that time is no more than 36 months after the death of the individual</li>
-            <li>the estate is at that time a testamentary trust</li>
-            <li>the individual’s social insurance number is provided in the estate’s T3 return of income for the tax year that includes that time and for each of its earlier tax years that ended after 2015 (36 month period after the death of the individual)</li>
-            <li>the estate designates itself as the graduated rate estate of the individual in its T3 return of income</li>
-            <li>no other estate designates itself as the graduated rate estate of that individual in a T3 return of income for a tax year that ends after 2015</li>
-        </ul>
-        <p>An estate can only be a "graduated rate estate" for up to 36 months following the death of an individual. The estate will cease to be a graduated rate estate if it is still in existence at the end of the 36 month period.</p>
-    </div>
-</section>
-<section id="testamentary-trust" class="mfp-hide modal-dialog modal-content overlay-def">
-    <header class="modal-header"><h2 class="modal-title">Testamentary</h2></header>
-    <div class="modal-body">
-        <p>A testamentary trust is a trust or estate that is generally created on and as result of the death of an individual, including a trust created under the terms of an individual’s will or by court order in relation to the deceased individual's estate under provincial or territorial law.</p>
-        <p>
-            Generally, this type of trust does not include a trust created by a person other than a deceased individual, or a trust created after November&nbsp;12,&nbsp;1981, if any property was contributed to it other than by a deceased individual as a consequence of the individual's death. For rules about testamentary trusts created before&nbsp;November&nbsp;13,&nbsp;1981, call&nbsp;<span class="nowrap"><strong>1-800-959-8281</strong></span
-            >.
-        </p>
-        <p>If the assets are not distributed to the beneficiaries according to the terms of the will, the testamentary trust may become an inter-vivos trust.</p>
-        <p>For tax years ending after&nbsp;December&nbsp;20,&nbsp;2002, a testamentary trust may become an inter-vivos trust if the trust incurs a debt or other obligation to pay an amount to, or guaranteed by, a beneficiary or any other person or partnership (any or all referred to as specified party), with whom any beneficiary of the trust does not deal at arm's length.</p>
-        <p>This does not apply for certain debts or other obligations, including those:</p>
-        <ul>
-            <li>incurred by the trust in satisfaction of a beneficiary’s right to enforce payment of an amount payable by the trust to the beneficiary or to receive any part of the trust’s capital</li>
-            <li>owed to the beneficiary as a result of services provided by the beneficiary for the trust</li>
-            <li>owed to the beneficiary as a result of a payment on behalf of the trust for which property was transferred to the specified party within 12 months of the payment and the beneficiary would have made the payment had they been dealing with the trust at arm’s length</li>
-        </ul>
-    </div>
-</section>
+
+<h2 id="toc0">Determine if you have a trust</h2>
+
+<h2 id="toc1">Identify the type of trust</h2>
+
+<h3>Express trusts</h3>
+
+<h4>Bare trusts</h4>
+
+<h3>Trusts created by law</h3>
+
+<h3>Special cases</h3>
+
+<h4>Estates</h4>
+
+<h4>Listed trusts</h4>
+
+<h2 id="toc2">Find out if you need to file a T3 return</h2>
+
+<h3>Trusts that must file every year</h3>
+
+<h3>Trusts that only file when there is income or other activity</h3>
+
+<h3>Trusts that may not need to file</h3>
+
+<h4>Listed trusts</h4>
+
+<h4>Bare trusts</h4>
+
+<h4>Estates</h4>
+
+<h4>Internal trusts of registered charities</h4>
+
 <div class="row">
     <div class="col-md-8">
         <nav class="gc-subway-pagination">
@@ -248,35 +113,4 @@ notedlinks:
     </div>
 </div>
 
-<script>
-
-    //window.onload is needed otherwise it doesnot scan whole document but upto the component area only new version
-    window.onload = function() {
-
-        var hTags = ['H2','H2','H2','H2'];
-        var hText = ['Determining the existence of a trust','Rules for tax years ending on or after December\u00A031,\u00A02023','Rules for tax years ending before December\u00A031,\u00A02023','Where the trust is an estate'];
-
-        if(typeof hTags != 'undefined' && hTags != null){
-            for(var i = 0; i < hTags.length; i++){
-                var tags = document.querySelectorAll(hTags[i].toLowerCase());
-                
-				if(typeof tags != 'undefined' && tags != null){
-                    for(var j = 0; j < tags.length; j++){
-                       // mws-1900 - the heading from texts contains contains text without backslash before appostraphy, where as tags returned by query selector does not contain them
-                        // hence removing backslash for creating equal comparison in order to add id reference
-                        if(tags[j].textContent.trim() === hText[i].replace(/\\/g, '')) {
-							if(!tags[j].id) {
-								tags[j].setAttribute('id', 'toc'+i);
-								break;
-							}
-                        }
-                    }
-                }
-            }
-        }
-
-    };
-
-
-</script>
 <script>_satellite.pageBottom();</script>
