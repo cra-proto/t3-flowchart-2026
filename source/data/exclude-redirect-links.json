@@ -8,11 +8,23 @@
     "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/enhanced-reporting-rules-trusts-bare-trusts-faq.html"
   },
   {
-    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html",
-    "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html"
-  },
-  {
     "origin": "https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html",
     "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/filing-trust-return/who-should-file.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3.html",
+    "destination": "/t3-flowchart-2026/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3/amelioration-regles-declaration-fiducies-simples-fiducies-faq.html",
+    "destination": "/t3-flowchart-2026/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3/amelioration-regles-declaration-fiducies-simples-fiducies-faq.html"
+  },
+  {
+    "origin": "https://www.canada.ca/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3/produire-declaration-fiducie/qui-doit-produire.html",
+    "destination": "/t3-flowchart-2026/fr/agence-revenu/services/impot/administrateurs-fiducies/declaration-t3/produire-declaration-fiducie/qui-doit-produire.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html",
+    "destination": "/t3-flowchart-2026/en/revenue-agency/services/tax/trust-administrators/t3-return/t3-flowchart.html"
   }
 ]
